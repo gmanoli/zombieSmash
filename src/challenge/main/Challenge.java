@@ -19,7 +19,8 @@ public class Challenge {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("zombies: " + zombies.toString());
+		//print to verify zombies Vector
+		//System.out.println("zombies: " + zombies.toString());
 		
 		for (int i = 0; i < zombies.size(); i++) {
 			Vector<Zombie> testCase = zombies.elementAt(i);
