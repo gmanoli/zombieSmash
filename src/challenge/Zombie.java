@@ -4,9 +4,22 @@ import java.awt.Point;
 
 import challenge.utils.Constants;
 
+/**
+ * This class represents a Zombie within the Graveyard.
+ * 
+ * @author gmanoli
+ *
+ */
 public class Zombie {
 	
+	/**
+	 * point where the zombie is located
+	 */
 	private Point point;
+	
+	/**
+	 * time when the zombie will be visible
+	 */
 	private int startTime;
 	
 	public Zombie (Point point, int time){
