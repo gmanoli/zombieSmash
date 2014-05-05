@@ -38,8 +38,7 @@ public class Graveyard {
 	public void getZombies(Vector<Zombie> zombies, Vector<Zombie> sol, int time, Point position, int lastRechargedTime) {
 		//verify if it is a solution
 		if (isSolution(zombies, time, position)){
-			//print the partial solution...
-			//System.out.println("Time " + time + " " + sol.toString());
+			//verify if the actual solution is is better than the previous
 			if (sol.size() > maxZombies){
 				maxZombies = sol.size();
 			}

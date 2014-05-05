@@ -28,9 +28,6 @@ public class Challenge {
 		try {
 			zombies = InputParser.loadInput(inputPath);
 			
-			//print to verify zombies Vector
-			//System.out.println("zombies: " + zombies.toString());
-			
 			//iterate over the test cases and look for the optimized amount of zombies
 			for (int i = 0; i < zombies.size(); i++) {
 				Vector<Zombie> testCase = zombies.elementAt(i);
